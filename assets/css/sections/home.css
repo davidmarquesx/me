@@ -150,10 +150,34 @@ section#home .container:before {
 
 */
 @media all and (max-device-width: 1115px) and (orientation: portrait) {
+	section#home:before {		
+		background: url('../../img/base/fundo_portrait.jpg') no-repeat #071c25;
+		background-size: cover;
+    	background-position-x: center;
+    	background-position-y: 50%;
+	}
 	section#home .container {
 		display: block;
 		/*padding: 75px 15px 0px;*/
 	}	
+	section#home .container:before {
+		background: linear-gradient(to bottom, rgba(96, 125, 139, 0.15), transparent);
+	}
+	.main-text {
+		max-width: 100%;
+    	flex: 0 0 100%;
+	}
+	.main-text {
+		align-items: baseline;
+	}
+	.main-text h3 {
+		font-size: 1.54em;
+		padding: 3vh 0vw;
+		text-align: center;
+	}
+
+	
+
 }
 
 @media all and (max-device-width: 991px) and (orientation: landscape) {	
