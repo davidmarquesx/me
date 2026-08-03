@@ -74,30 +74,30 @@ section#home .container:before {
 	text-shadow: 0 2px 1px #000;
 } 
 
-/*
+
 @media all and (min-width: 768px){
-	.main-image, .main-text {
+	.main-text {
 		max-width: 50%;    	
 		flex: 0 0 50%;
 	}
-	.main-text #info {
+	.main-text /*#info */{
 		font-size: 14px;	
 	}
-	.main-text #info > h1 {
+	.main-text /*#info >*/ h1 {
 		font-size: 6.5rem;
 	}	
 }
 
 
 @media all and (min-width: 1025px){	
-	.main-text #info {
+	.main-text /*#info*/ {
 		font-size: 1.25vw;
 		margin-bottom: 30px;
 	}
-	.main-text #info > h1 {
+	.main-text /*#info > */h1 {
 		font-size: 7vw;
 	}
-	.main-text #info h2 {
+	.main-text /*#info*/ h2 {
 		font-size: 2em;
 		padding-right: 4vw;
 	}	
@@ -105,14 +105,14 @@ section#home .container:before {
 
 
 @media all and (min-width: 1367px){
-	.main-text #info {
+	.main-text /*#info */{
 		font-size: 1.54vw;
 		margin-bottom: 50px;
 	}
-	.main-text #info > h1 {
+	.main-text /*#info > */ h1 {
 		font-size: 7.5vw;
 	}
-	.main-text #info > h2 {
+	.main-text /*#info >*/ h2 {
 		font-size: 1.75em;
 		line-height: 104%;
 	}	
@@ -120,30 +120,30 @@ section#home .container:before {
 
 
 @media all and (min-width: 1681px) {
-	.main-text #info {
+	.main-text /*#info*/ {
 		font-size: 1.65vw;	
 	}
-	.main-text #info > h1 {
+	.main-text /*#info > */h1 {
 		font-size: 7vw;
 	}
-	.main-text #info > h2 {
+	.main-text /*#info >*/ h2 {
 		font-size: 1.75em;
 		line-height: 108%;
 		padding-right: 4vw;
 	}
-	.main-text #info > h3 {
+	.main-text /*#info > */ h3 {
 		font-size: 1.17em;
 	}
 }
 
 @media all and (min-width: 1921px){
-	.main-text #info {
+	.main-text /* #info*/ {
 		font-size: 1.75vw;
 	}
-	.main-text #info > h1 {
+	.main-text /* #info >*/ h1 {
 		font-size: 8vw;
 	}
-	.main-text #info > h2 {
+	.main-text /* #info > */ h2 {
 		padding-right: 0;
 	}
 }
@@ -157,11 +157,11 @@ section#home .container:before {
 }
 
 @media all and (max-device-width: 991px) and (orientation: landscape) {	
-	.main-text #info {	
+	.main-text /*#info */{	
 		font-size: 13px;
 		margin-bottom: 30px;	
 	}
-	.main-text #info h1 {
+	.main-text /*#info*/ h1 {
 		font-size: 5rem;
 	}
 }
@@ -177,28 +177,28 @@ section#home .container:before {
 
 
 @media all and (max-device-width: 690px) and (orientation: landscape){
-	.main-text #info {
+	.main-text /*#info*/ {
 		font-size: 11px;
 		margin-bottom: 10px;
 	}
 }
 
-/*
+
 @media all and (max-width: 1024px) and (orientation: portrait) {	
-	.main-text #info {
+	.main-text /* #info */ {
 		font-size: 16px;
 		padding: 0 10px	;
 	}
-	.main-text #info p {
+	.main-text /*#info*/ p {
 		font-size: 1.7em;
 	}
-	.main-text #info h1 {
+	.main-text /*#info*/ h1 {
 		font-size: 7rem;
 	}
-	.main-text #info h2 {
+	.main-text /*#info */h2 {
 		font-size: 2em;
 	}
-	.main-text #info h3 {
+	.main-text /*#info */h3 {
 		font-size: 1.75em;
 	}
 }
@@ -208,39 +208,39 @@ section#home .container:before {
 	section#home:before {
 		background-size: 150%;
 	}
-	.main-text #info {
+	.main-text /*#info*/ {
 		font-size: 13px;
 		padding: 0 5px;
 	}
-	.main-text #info h1 {
+	.main-text /*#info*/ h1 {
 	    font-size: 5.4rem;
 	}
 }
 
 @media all and (max-device-width: 390px) and (orientation: portrait) {		
-	.main-text #info p {
+	.main-text /*#info*/ p {
 		font-size: 1.45em;
 	}
-	.main-text #info h2 {
+	.main-text /*#info*/ h2 {
 		font-size: 1.7rem;
 	}
-	.main-text #info h3 {
+	.main-text /*#info*/ h3 {
 		font-size: 1.5rem;
 	}
 }
 
 @media all and (max-device-width: 320px) and (orientation: portrait) {	
-	.main-text #info {
+	.main-text /*#info */{
 		font-size: 11px;
 		padding: 0;
 	}
-	.main-text #info p {
+	.main-text /*#info*/ p {
 		font-size: 1.25em;
 	}
-	.main-text #info h1 {
+	.main-text /*#info*/ h1 {
 		font-size: 4rem;
 	}
-	.main-text #info h2 {
+	.main-text /*#info*/ h2 {
 		font-size: 1.5rem;
 		letter-spacing: -0.8px;
 		text-align: justify;
@@ -257,10 +257,10 @@ section#home .container:before {
 		height: 100%;
 		background-position-x: center;
 	}
-	.main-text #info h1 {
+	.main-text /*#info*/ h1 {
 		font-size: 4rem;
 	}
-	.main-text #info h2 {
+	.main-text /*#info*/ h2 {
 		font-size: 1.65em;
 	}
 }
