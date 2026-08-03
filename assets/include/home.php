@@ -1,7 +1,7 @@
 <div class="container">
   <!-- <div class="row">
         <div class="main-image col-md-6">
-           <!-- <image >
+           <image >
         </div>
        
     </div> -->
