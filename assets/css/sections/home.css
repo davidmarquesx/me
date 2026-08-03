@@ -147,7 +147,7 @@ section#home .container:before {
 }
 
 
-@media all and (max-width: 1115px) and (orientation: portrait) {
+@media all and (max-device-width: 1115px) and (orientation: portrait) {
 	section#home .container {
 		display: block;
 	}	
