@@ -147,6 +147,13 @@ section#home .container:before {
 }
 
 
+@media all and (max-width: 1115px) and (orientation: portrait) {
+	display: block;
+}
+
+
+
+
 
 
 
