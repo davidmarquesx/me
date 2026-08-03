@@ -186,7 +186,8 @@ section#home .container:before {
 }
 
 
-@media all and (-webkit-min-device-pixel-ratio: 2) and (max-device-width: 1115px) {
+/* @media all and (-webkit-min-device-pixel-ratio: 2) and (max-width: 1115px) { */
+@media all and (max-width: 1115px) and (orientation: portrait) {
 	.main-text #info {
 		font-size: 22px;
 		margin-bottom: 50px;
@@ -198,7 +199,7 @@ section#home .container:before {
 }
 
 
-@media all and (max-device-width: 991px) and (orientation: landscape) {	
+@media all and (max-width: 991px) and (orientation: landscape) {	
 	.main-text #info {	
 		font-size: 13px;
 		margin-bottom: 30px;	
@@ -209,7 +210,7 @@ section#home .container:before {
 }
 
 
-@media all and (max-device-width: 800px) and (orientation: landscape) {		
+@media all and (max-width: 800px) and (orientation: landscape) {		
 	section#home:before {
 		width: 120%;
 		height: 100%;
@@ -218,7 +219,7 @@ section#home .container:before {
 }
 
 
-@media all and (max-device-width: 690px) and (orientation: landscape){
+@media all and (max-width: 690px) and (orientation: landscape){
 	.main-text #info {
 		font-size: 11px;
 		margin-bottom: 10px;
@@ -226,7 +227,7 @@ section#home .container:before {
 }
 
 
-@media all and (max-device-width: 1024px) and (orientation: portrait) {	
+@media all and (max-width: 1024px) and (orientation: portrait) {	
 	.main-text #info {
 		font-size: 16px;
 		padding: 0 10px	;
@@ -246,7 +247,7 @@ section#home .container:before {
 }
 
 
-@media all and (max-device-width: 557px) and (orientation: portrait) {	
+@media all and (max-width: 557px) and (orientation: portrait) {	
 	section#home:before {
 		background-size: 150%;
 	}
@@ -259,7 +260,7 @@ section#home .container:before {
 	}
 }
 
-@media all and (max-device-width: 390px) and (orientation: portrait) {		
+@media all and (max-width: 390px) and (orientation: portrait) {		
 	.main-text #info p {
 		font-size: 1.45em;
 	}
@@ -271,7 +272,7 @@ section#home .container:before {
 	}
 }
 
-@media all and (max-device-width: 320px) and (orientation: portrait) {	
+@media all and (max-width: 320px) and (orientation: portrait) {	
 	.main-text #info {
 		font-size: 11px;
 		padding: 0;
