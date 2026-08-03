@@ -41,14 +41,14 @@ section#home .container:before {
 	color: #eee;		display: grid;
 	font-family: 'arial', sans-serif;
 }
-.main-text /*#info*/ > h1 {
+.main-text /*#info*/  h1 {
 	font-size: 6.5rem;
 }	
 /*
 .main-text #info {	
 	
 }*/
-.main-text/* #info */h1, 
+.main-text/* #info */ h1, 
 .main-text /*#info*/ h2 strong {
 	color: #adc2cd;
 }
