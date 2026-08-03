@@ -59,6 +59,7 @@ section#home .container:before {
 .main-text #info h2 {
 	font-size: 2em;
     font-weight: 100;
+	text-shadow: 0px 2px 0px #1d2b34;	
 	line-height: unset;  		
 }
 .main-text #info h2 strong {
@@ -70,6 +71,82 @@ section#home .container:before {
 	padding: 4vh 10vw;	
 	text-shadow: 0 2px 1px #000;
 } 
+
+
+@media all and (min-width: 768px){
+	.main-image, .main-text {
+		max-width: 50%;    	
+		flex: 0 0 50%;
+	}
+	.main-text #info {
+		font-size: 14px;	
+	}
+	.main-text #info > h1 {
+		font-size: 6.5rem;
+	}	
+}
+
+
+@media all and (min-width: 1025px){	
+	.main-text #info {
+		font-size: 1.25vw;
+		margin-bottom: 30px;
+	}
+	.main-text #info > h1 {
+		font-size: 7vw;
+	}
+	.main-text #info h2 {
+		font-size: 2em;
+		padding-right: 4vw;
+	}	
+}
+
+
+@media all and (min-width: 1367px){
+	.main-text #info {
+		font-size: 1.54vw;
+		margin-bottom: 50px;
+	}
+	.main-text #info > h1 {
+		font-size: 7.5vw;
+	}
+	.main-text #info > h2 {
+		font-size: 1.75em;
+		line-height: 104%;
+	}	
+}
+
+
+@media all and (min-width: 1681px) {
+	.main-text #info {
+		font-size: 1.65vw;	
+	}
+	.main-text #info > h1 {
+		font-size: 7vw;
+	}
+	.main-text #info > h2 {
+		font-size: 1.75em;
+		line-height: 108%;
+		padding-right: 4vw;
+	}
+	.main-text #info > h3 {
+		font-size: 1.17em;
+	}
+}
+
+@media all and (min-width: 1921px){
+	.main-text #info {
+		font-size: 1.75vw;
+	}
+	.main-text #info > h1 {
+		font-size: 8vw;
+	}
+	.main-text #info > h2 {
+		padding-right: 0;
+	}
+}
+
+
 
 
 
