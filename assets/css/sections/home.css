@@ -14,7 +14,7 @@ section#home:before {
 }
 
 section#home .container {
-	display: inline-flex;
+	display: flex;
 	justify-content: right;
 	padding-bottom: 0;
 	height: 100vh;	
