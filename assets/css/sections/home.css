@@ -163,11 +163,9 @@ section#home .container:before {
 	section#home .container:before {
 		background: linear-gradient(to bottom, rgba(96, 125, 139, 0.15), transparent);
 	}
-	/*.main-text {
-		max-width: 100%;
-    	flex: 0 0 100%;
-	}*/
 	.main-text {
+		max-width: 50%;
+    	flex: 0 0 50%;
 		align-items: baseline;
 	}
 	.main-text h3 {
