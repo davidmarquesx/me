@@ -163,10 +163,10 @@ section#home .container:before {
 	section#home .container:before {
 		background: linear-gradient(to bottom, rgba(96, 125, 139, 0.15), transparent);
 	}
-	.main-text {
+	/*.main-text {
 		max-width: 100%;
     	flex: 0 0 100%;
-	}
+	}*/
 	.main-text {
 		align-items: baseline;
 	}
